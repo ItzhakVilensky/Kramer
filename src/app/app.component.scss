@@ -1,0 +1,79 @@
+form {
+  margin: 1%;
+  padding: 1%;
+}
+
+// .wrap {
+//   display: inline-block;
+//   width: 15rem;
+//   padding: 15px;
+// }
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 1%;
+}
+
+.example-card {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 0;
+}
+
+.example-card:hover {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  padding: 0;
+  background-color: whitesmoke;
+  font-size: larger;
+  transition: all 0.5s ease-out;
+}
+
+mat-card-title-group{
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+mat-card-title {
+  font-size: 130%;
+  padding-left: 5px;
+}
+
+mat-card-content {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  text-align: right;
+}
+
+mat-card-subtitle{
+  font-weight: bolder;
+  padding-left: 5px;
+}
+
+mat-card-title {
+  border-radius: 5px 5px 0 0;
+}
+
+.grey {
+  background-color: grey;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.card-opacity {
+  background-color: #c7c9c8;
+  border: 1px solid gray;
+}
