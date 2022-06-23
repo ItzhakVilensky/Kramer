@@ -9,6 +9,7 @@ import { EdidService } from 'src/services/edid.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
   title = 'kramer';
   public edidData: IEDID[];
   filterForm: FormGroup = this.fb.group({
@@ -19,7 +20,7 @@ export class AppComponent implements OnInit {
 
   constructor(private edidService: EdidService, private fb: FormBuilder) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.fetchData();
   }
 
